@@ -103,8 +103,12 @@ function clearData()
 
 function backSpace()
 {
+    if(prev === "=")
+    {
+        prev = "";
+        return;
+    }
     eq = eq.slice(0,eq.length-1);
     sol.innerText=""
     formula.innerText=eq;
-    prev = "";
 }

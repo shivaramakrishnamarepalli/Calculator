@@ -98,6 +98,7 @@ function clearData()
     eq = "";
     sol.innerText = "";
     formula.innerText=eq;
+    prev = "";
 }
 
 function backSpace()
@@ -105,4 +106,5 @@ function backSpace()
     eq = eq.slice(0,eq.length-1);
     sol.innerText=""
     formula.innerText=eq;
+    prev = "";
 }

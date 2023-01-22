@@ -1,0 +1,89 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 96vh;
+    width: 96vw;
+    background-color: #edecec;
+}
+
+.calc{
+    display: flex;
+    flex-direction: column;
+    height: 85vh;
+    width: 400px;
+    border-radius: 18px;
+    padding: 20px;
+    padding-bottom: 5px;
+    outline: #171447 solid 3px;
+    background-color: #afbb4dde;
+    box-shadow: 6px 4px #7f2323;
+}
+
+.buttons{
+    height: 450px;
+    width: 372px;
+    font-size: larger;
+    align-items: center;
+    justify-content: space-between;
+    margin: 6px;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+    background-color: #561f3c;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+    grid-template-rows: repeat(60px);
+    align-items: center;
+    justify-content: space-around;
+    margin: 6px;
+    padding: 10px;
+}
+
+.grid-item{
+    padding: 5px;
+    margin: 10px;
+    height: 45px;
+    width: 72px;
+    background-color: red;
+    border: 2px solid white;
+    font-size: 15px;
+    text-align: center;
+    box-shadow: 3px 2px #ecf064;
+    color: black;
+}
+
+.big-item{
+    width:165px;
+}
+
+.display{
+    display: flex;
+    flex-direction: column;
+    height: 160px;
+    width: 372px;
+    border-radius: 18px;
+    background-color: black;
+    padding: 15px;
+    margin-top: 6px;
+}
+
+.formula{
+    height: 90px;
+    width: 360px;
+    font-size: large;
+    font-weight: bold;
+    color: white;
+    text-align: right;
+}
+
+.sol{
+    color: #89fff6;
+    font-size: xx-large ;
+    height: 30px;
+    width: 360px;
+    text-align: right;
+}

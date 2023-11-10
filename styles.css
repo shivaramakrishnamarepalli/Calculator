@@ -10,7 +10,7 @@ body{
 .calc{
     display: flex;
     flex-direction: column;
-    height: 85vh;
+    height: 650px;
     width: 400px;
     border-radius: 18px;
     padding: 20px;
